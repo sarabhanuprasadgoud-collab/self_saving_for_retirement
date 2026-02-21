@@ -71,7 +71,7 @@ pytest
 ---
 
 📂 Project Structure
-
+```
 app/
  ├── main.py              # Entry point
  ├── models/              # Data models
@@ -81,14 +81,14 @@ app/
  └── tests/               # Pytest test cases
 requirements.txt
 .gitignore
-
+```
 ---
 
 🌟 Future Enhancements
-• Add authentication & user accounts
-• Integrate database (PostgreSQL / MongoDB)
-• Deploy with Docker & CI/CD pipeline
-• Performance metrics dashboard
+- Add authentication & user accounts
+- Integrate database (PostgreSQL / MongoDB)
+- Deploy with Docker & CI/CD pipeline
+- Performance metrics dashboard
 
 ---
 
