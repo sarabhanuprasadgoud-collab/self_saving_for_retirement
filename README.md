@@ -83,6 +83,15 @@ requirements.txt
 .gitignore
 ```
 ---
+## 🐳 Docker Deployment
+
+To build and run the container:
+
+```bash
+docker build -t blk-hacking-ind-bhanuprasad .
+docker run -d -p 5477:5477 blk-hacking-ind-bhanuprasad
+```
+---
 
 🌟 Future Enhancements
 - Add authentication & user accounts
