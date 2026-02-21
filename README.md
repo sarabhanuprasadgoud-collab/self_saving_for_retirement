@@ -32,7 +32,6 @@ Clone the repository:
 git clone https://github.com/sarabhanuprasadgoud-collab/self_saving_for_retirement.git
 cd self_saving_for_retirement
 ```
----
 
 Create a virtual environment:
 ```Bash
@@ -40,8 +39,6 @@ python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
-
----
 
 Install dependencies:
 ```Bash
