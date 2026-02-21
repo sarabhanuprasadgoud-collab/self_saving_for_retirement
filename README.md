@@ -91,6 +91,8 @@ To build and run the container:
 docker build -t blk-hacking-ind-bhanuprasad .
 docker run -d -p 5477:5477 blk-hacking-ind-bhanuprasad
 ```
+The application will be available at http://localhost:5477.
+
 ---
 
 🌟 Future Enhancements
