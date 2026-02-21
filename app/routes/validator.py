@@ -13,7 +13,7 @@ router = APIRouter(prefix="/blackrock/challenge/v1", tags=["validator"])
 # Transaction Validator
 #==========================================
 
-@router.post("/transactions:validator", response_model=TransactionValidatorResponse)
+@router.post("/transactions:filter", response_model=TransactionValidatorResponse)
 async def validator(request: TransactionValidatorRequest, auth: str = Depends(validate_api_key)):
     """
     Endpoint: Transaction Validator
